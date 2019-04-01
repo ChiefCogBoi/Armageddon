@@ -40,6 +40,17 @@ public class RotateAction : MonoBehaviour
         transform.rotation = transform.rotation * Quaternion.Euler(0, 0, degrees);
     }
     // -------------------------------------------------------------------------
+    public void ActionRotateTowardsObjectWithTag(string tagName)
+    {
+        // Find the object to follow
+        GameObject[] objects = GameObject.FindGameObjectsWithTag(tagName);
+        if (objects != null && objects.Length > 0)
+        {
+            GameObject target = objects[0];
+            ActionRotateTowardsObject(target);
+        }
+    }
+    // -------------------------------------------------------------------------
     public void ActionRotateTowardsObject(GameObject rotateTowards)
     {
         Vector3 vectorToTarget = rotateTowards.transform.position - transform.position;

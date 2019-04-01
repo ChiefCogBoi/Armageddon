@@ -222,6 +222,17 @@ public class MoveToAction : MonoBehaviour
         ActionMoveToPoint(newTargetObject.transform.position);
     }
     // -------------------------------------------------------------------------
+    public void ActionFollowObjectWithTag(string tagName)
+    {
+        // Find the object to follow
+        GameObject[] objects = GameObject.FindGameObjectsWithTag(tagName);
+        if (objects != null && objects.Length > 0)
+        {
+            GameObject target = objects[0];
+            ActionFollowObject(target);
+        }
+    }
+    // -------------------------------------------------------------------------
     public void ActionFollowObject(GameObject newTargetObject)
     {
         // Check if we are in instant mode
