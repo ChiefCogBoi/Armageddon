@@ -614,7 +614,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d64158a24f584568b869a4720b9b939, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingValue: 0.7
+  startingValue: 2
   hasMinValue: 1
   minValue: 0
   hasMaxValue: 0
@@ -1440,7 +1440,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d64158a24f584568b869a4720b9b939, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingValue: 0.7
+  startingValue: 2
   hasMinValue: 1
   minValue: 0
   hasMaxValue: 0
