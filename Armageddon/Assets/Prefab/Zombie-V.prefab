@@ -78,7 +78,7 @@ GameObject:
   - component: {fileID: 114647140215973814}
   - component: {fileID: 114169136583522832}
   m_Layer: 0
-  m_Name: Zombie-V(UP)
+  m_Name: Zombie-V
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

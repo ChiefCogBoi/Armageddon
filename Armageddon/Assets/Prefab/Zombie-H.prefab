@@ -29,7 +29,7 @@ GameObject:
   - component: {fileID: 114132399332366176}
   - component: {fileID: 114476412446001916}
   m_Layer: 0
-  m_Name: Zombie-H(RIGHT)
+  m_Name: Zombie-H
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
